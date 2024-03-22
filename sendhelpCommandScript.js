@@ -28,6 +28,6 @@ function sendHelpCommand() {
   messageBox.dispatchEvent(keydownEvent);
 }
 
-// Call sendHelpCommand twice
+// Call sendHelpCommand twice in the console
 sendHelpCommand()
 sendHelpCommand()

@@ -26,7 +26,6 @@ TEST 3
 difference: 407ms
 
 # Webhook Telegram
-
 ## results layout:
 - end of the first command sent
 - start of the second command sent
@@ -52,3 +51,6 @@ TEST 3
  - 2024-03-20T20:47:55.752Z
 
 difference: 518ms
+
+
+This test was ran by putting the sendHelpCommandScript into the browser console twice, so we could get an accurate depiction of the performace chances of polling into webhooks.
